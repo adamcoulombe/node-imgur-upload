@@ -1,0 +1,40 @@
+{
+  "name": "imgur-upload",
+  "description": "imgur anonymous upload in nodejs using the imgur api",
+  "version": "0.1.0",
+  "homepage": "https://github.com/adamcoulombe/node-imgur-upload",
+  "author": {
+    "name": "adamcoulombe",
+    "email": "adamcoulombe187@hotmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamcoulombe/node-imgur-upload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamcoulombe/node-imgur-upload/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/adamcoulombe/node-imgur-upload/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/imgur-upload",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "request": "~2.16.6"
+  }
+}
