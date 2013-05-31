@@ -24,7 +24,8 @@ _(Coming soon)_
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+ * 0.1.2: Fix to Handle non-JSON API responses as errors
+ * 0.1.1: Initial release
 
 ## License
 Copyright (c) 2013 adamcoulombe  
